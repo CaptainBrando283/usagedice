@@ -1,8 +1,8 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
+  "id": "usagedice",
+  "title": "Usage Dice",
+  "description": "Usage Dice for Shadowdark RPG",
+  "version": "0.0.1",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
@@ -22,10 +22,13 @@
       "discord": "discordID#0001"
     }
   ],
-  "relationships": {
-    "systems": [Shadowdark RPG],
-    "requires": [shadowdark]
-  },
+  "relationships":  "systems": [{
+    "id": "shadowdark",
+    "type": "system",
+    "manifest": "https://raw.githubusercontent.com/Muttley/foundryvtt-shadowdark/master/system/system.json",
+    "compatibility": {
+      "verified": "2.2.1"
+    }
   "esmodules": [
     "scripts/module.js"
   ],
