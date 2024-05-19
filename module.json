@@ -12,14 +12,19 @@
   },
   "authors": [
     {
+      "name": "CaptianBrando",
+      "url": "https://github.com/CaptainBrando283",
+      "discord": ".captainbrando"
+    },
+    {
       "name": "The League of Extraordinary FVTT Developers",
       "url": "https://github.com/League-of-Foundry-Developers",
       "discord": "discordID#0001"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [Shadowdark RPG],
+    "requires": [shadowdark]
   },
   "esmodules": [
     "scripts/module.js"
